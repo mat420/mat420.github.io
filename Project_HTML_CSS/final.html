@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Facebook-log in or sign up</title>
+        <link rel="stylesheet" type="text/css" href="finalproject.css">
+    </head>
+    <body>
+        <header>
+            <div id="header_1">
+                <h1><a href="facebook.com"><b>facebook</b></a></h1>
+            </div>
+            <div class="form">
+            <form action="post">
+                <label for="Email_or_Phone"><div id="first">Email or Phone</div></label>
+                <input class="mail" type="text" id="Email_or_Phone" name="Email_or_Phone">
+                <label for="Password"><div id="second">Password</div></label>
+                <input class="pass" type="password" id="Password" name="Password">
+                <div class="sub">
+                <input type="submit" value="Log In">
+            </div>
+                <div class="forgot"><a href="#">Forgotten account?</a></div>
+            </form>
+        </div>
+        </header>
+        <div class="main-content">
+            <div id="span_item">Facebook helps you connect and share with<br/> the people in your life.</div>
+            <div class="image_content">
+                <img src="facebook.png" alt="conecting">  
+            </div>
+        </div>
+        <form class="main" action="/">
+            <div class="myaccount">Create an account</div>
+            <div id="para1">It's free and always will be.</div>
+            <div id="fsname">
+                <input type="text" id="fname" name="Firstname" placeholder="First name">
+                <input type="text" id="lname" name="Surname" placeholder="Surname">
+            </div>
+            <div class="mbl">
+                <input type="email" id="phn_number" name="email" placeholder="Mobile no. or email address">
+            </div>
+            <div class="reg_pass">
+                <input type="password" id="new_pass" name="Password" placeholder="New password">
+            </div>
+            <div class="dmy">
+                    <div id="b_day">
+                        <p>Birthday</p>
+                    </div>
+                    <li id="birthday">
+                        <select><option>Day</option></select>
+                        <select><option>Month</option></select>
+                        <select><option>Year</option></select>
+                    </li>
+                    <div id="gen">
+                     <p>Gender</p>
+                    </div>
+                    <div class="gen-container">
+                    <input class="gen-radio" type="radio" name="gender" value="male" checked>
+                    <label>Male</label>
+                    
+                    <input class="gen-radio" type="radio" name="gender" value="female">
+                    <label>Female</label>
+                    
+                    <input class="gen-radio" type="radio" name="gender" value="" checked>
+                    <label>Custom</label>
+                    </div>
+                    <div id="last_para"><p>By clicking Sign Up, you agree to our <span>Terms</span>, <span>Data Policy</span> and<br/> <span>Cookie Policy</span>. 
+                        You may receive SMS notifications from us and<br/>can opt out at any time.</p>
+                    </div>
+                </div>
+            <footer>
+                    <button type="submit" id="btn" name="btn">Sign up</button>
+                   <div id="fb_foot"><span id="end">Create a Page</span> for a celebrity, band or business.</div>
+            </footer>    
+        </form>
+    </body>
+</html>

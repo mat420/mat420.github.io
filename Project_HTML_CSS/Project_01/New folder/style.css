@@ -1,0 +1,92 @@
+.wrapper{
+  width:900px;
+  background:#eee;
+  margin:0 auto 0 auto;
+}
+
+.heading{
+  height:170px;
+  background:darkred;
+  text-align:center;
+  padding-top:10px;
+  font-family: impact;
+  font-size: 22pt;
+  color:yellow;
+  text-shadow: 0.1em 0.1em black;
+}
+
+p{
+    font-family: fantasy;
+    padding:10px;
+}
+.title{
+  font-family: sans-serif;
+  font-size:20pt;
+  background: black;
+  color:white;
+  padding: 10px;
+  display: block;
+}
+.navigation{
+  background: black;
+  height:30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding:10px;
+  padding-bottom:40px;
+  padding-right: 30px;
+  font-family: impact;
+  font-size: 16pt;
+  border:1px solid black;
+}
+.navigation ul{
+ text-align: center;
+}
+.navigation ul li{
+  display:inline;
+  margin-right:30px;
+  padding: 5px;
+}
+.navigation a{
+  color:white;
+  text-decoration:none;
+}
+.navigation a:hover{
+  color:white;
+  text-decoration: underline;
+}
+.content{
+  min-height: 400px;
+  background: #ddd;
+  width:680px;
+  float:left;
+  text-align: left;
+  padding:10px;
+  padding-top:20px;
+  padding-left: 5px;
+  font-family: fantasy;
+  font-size: 15pt;
+
+}
+.sidebar{
+  width:180px;
+  float:right;
+  background:darkred;
+  min-height: 400px;
+  padding:10px;
+  padding-top: 20px;
+  font-family:monospace ;
+  font-size: 13pt;
+
+}
+
+.footer{
+  clear: both;
+  background:black;
+  height: 30px;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  font-size: 12pt;
+}
