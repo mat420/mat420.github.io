@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" ccontent="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="hw1.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Homework Assignment #1</title>
+</head>
+<body>
+    <nav>
+    <ul>
+      <div id="test">
+    <li><a class="first" href="#mainpage">Home</a></li>
+    <li><a class="first" href="#ingredients">go to ingredients</a></li>
+    <li><a class="first" href="#recipe">go to recipes</a></li>
+    </div>
+
+    <div id="mysite">
+      <div class="para">
+      <pre class="second">Welcome<br/>  to my recipe</pre>
+    </div>
+      <div class="fan">
+        <div id="div1" class="fa"></div>
+        <div id="div2" class="fa"></div>
+        <div id="div3" class="fa"></div>
+        </div>
+<script>
+function ratestar() {
+  var a;
+  var i;
+  a = document.getElementById("div1");
+  i = document.getElementById("div2");
+  b = document.getElementById("div3");
+  a.innerHTML = "&#xf006;";
+  i.innerHTML= "&#xf006;";
+  b.innerHTML= "&#xf006;";
+  setTimeout(function () {
+      a.innerHTML = "&#xf123;";
+      i.innerHTML = "&#xf123;";
+      b.innerHTML = "&#xf123;";
+    }, 1000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf005;";   
+      i.innerHTML = "&#xf005;";
+      b.innerHTML = "&#xf005;";     
+    }, 2000);
+}
+ratestar();
+setInterval(ratestar, 3000);
+</script>
+    </div>
+  </ul>
+</nav>
+  <section>
+    <div class="responsive" id="mainpage">
+      <h1>MY KACHCHI BIRIYANI RECIPE</h1>
+    </div>
+  </section>
+  <section>
+<div class="items" id="ingredients">
+  <p><span id="mr"><strong>INGREDIENTS</strong></span></P>
+    <!---Unordered list for ingredients-->
+  <ul id="fa-ul">
+    <li><i class="material-icons">&#xe834;</i>2 lb mutton.</li>
+    <li><i class="material-icons">&#xe834;</i>1 teaspoon ginger paste.</li>
+    <li><i class="material-icons">&#xe834;</i>2 teaspoon garlic paste.</li>
+    <li><i class="material-icons">&#xe834;</i>3-4 dry red chili.</li>
+    <li><i class="material-icons">&#xe834;</i>2-3 stick of cinnamon, half inches each.</li>
+    <li><i class="material-icons">&#xe834;</i>4-5 green cardamom.</li>
+    <li><i class="material-icons">&#xe834;</i>1 teaspoon cumin.</li>
+    <li><i class="material-icons">&#xe834;</i>½ teaspoon cloves.</li>
+    <li><i class="material-icons">&#xe834;</i>½ teaspoon mace.</li>
+    <li><i class="material-icons">&#xe834;</i>⅛ teaspoon nutmeg.</li>
+    <li>6-8 allspice (optional).</li>
+    <li>½ teaspoon caraway seed (optional).</li>
+    <li><i class="material-icons">&#xe834;</i>3 tablespoon yogurt.</li>
+    <li><i class="material-icons">&#xe834;</i>¾ cup ghee or butter.</li>
+    <li><i class="material-icons">&#xe834;</i>5 medium potato.</li>
+    <li>pinch of orange food color (optional).</li>
+    <li><i class="material-icons">&#xe834;</i>½ cup onion, thinly sliced.</li>
+    <li><i class="material-icons">&#xe834;</i>4 cups basmati or kalijeera rice (I use a 160ml cup to measure my rice. Adjust accordingly).</li>
+    <li><i class="material-icons">&#xe834;</i>6 cups water.</li>
+    <li><i class="material-icons">&#xe834;</i>½ cup condensed milk.</li>
+    <li><i class="material-icons">&#xe834;</i>2 tablespoon milk.</li>
+    <li><i class="material-icons">&#xe834;</i>pinch of saffron.</li>
+    <li><i class="material-icons">&#xe834;</i>10-12 alubokhara (pitted prunes).</li>
+    <li>4 eggs, hard boiled.</li>
+    <li>Salt, according to taste.</li>
+   </ul>
+   </div>
+   </section>
+   <!--Ordered list for recipe-->
+   <section>
+     <div class="preparation" id="recipe">
+   <p><span id="order"><strong>INSTRUCTIONS FOR PREPARING THE DISH</strong></span></p>
+   <ol id="orderlist">
+    <i class="material-icons">&#xe834;</i><strong>Steps to prepare the meat:</strong>
+    <li>Sprinkle some salt on the meat and let stand for 15-20 minutes. Wash the meat and drain all water.</li>
+    <li>Take all the spice from red chili to caraway seed, grind.</li>
+    <li>Take the pot where biryani will be cooked. Add the meat and yogurt, ground spice mix,
+         garlic and ginger paste and salt. Marinate for anywhere between 30 minutes to overnight(see notes).</li>
+         <i class="material-icons">&#xe834;</i><strong>Steps to prepare the onion:</strong>
+    <li>Add about 3 tablespoon of butter/ghee on a frying pan on medium heat.</li>
+    <li>Add very thinly sliced onion and sautee until fragrant and golden brown.</li>
+    <i class="material-icons">&#xe834;</i><strong>Steps to prepare the potato:</strong>
+    <li>Wash, peel and cut the potato in big chinks. Usually into 3 pieces for a medium Idaho potato.</li>
+    <li>If using, rub some orange food color to the potato.</li>
+    <li>Sprinkle some salt.</li>
+    <li>Fry the potatoes until slightly golden on the same pan used for the onion.</li>
+    <i class="material-icons">&#xe834;</i><strong>Steps to prepare the rice:</strong>
+    <li>Wash rice and drain all water.</li>
+    <li>Boil 6 cups of water. Add salt.</li>
+    <li>Add the rice.</li>
+    <li>Turn off the stove at the first sight of water boiling again (bubble forming on the water) after adding the rice.
+         Rice will be uncooked at this point.</li>
+    <li>Drain the rice completely saving the drained hot water in another clean pot.</li>
+    <i class="material-icons">&#xe834;</i><strong>Steps to assemble the biryani layers and cook:</strong>
+    <li>Preheat oven to 350 degrees Fahrenheit.</li>
+    <li>Soak the saffron to the milk.</li>
+    <li>Add butter/ghee to 1 cup of hot water that was set aside in the rice preparing step.</li>
+    <li>Add the prepared potatoes on top of the marinated meat.</li>
+    <li>Sprinkle some fried onion.</li>
+    <li>Add the alubokhara(prunes), if using.</li>
+    <li>Add half the water-butter mixture.</li>
+    <li>Layer in the prepared rice.</li>
+    <li>Sprinkle the saffron milk.</li>
+    <li>Make 4-5 indentations from the rice layer through the potato till the meat.</li>
+    <li>Add the condensed milk through the indentations.</li>
+    <li>Sprinkle the remaining water-butter mixture.</li>
+    <li>Add the remaining hot water in a way that water doesn’t go above the rice layer. 
+        You may not need to use all of the hot water.</li>
+    <li>Cook in the oven for 1.5 hours.</li>
+    <li>Add the hard boiled eggs.</li>
+    <li>Serve with salad, kabab and chutney.</li>
+  </ol>
+  </div>
+  </section>
+</body>
+</html>

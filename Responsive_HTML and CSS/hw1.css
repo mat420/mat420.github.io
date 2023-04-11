@@ -1,0 +1,208 @@
+body {
+background-color:cadetblue;
+}
+section{
+    background-color: rgb(231, 229, 226);
+    border-radius: 20px;
+    padding-bottom: 2px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 35px;
+    margin-top: 25px;
+    font-family: cursive;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+#fa-ul{
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#fa-ul li{
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+ol{
+    font-size: 20px;
+    padding: 25px 20px 5px 50px;
+}
+ol li{
+    margin-left: 90px;
+    margin-top: 5px;
+    list-style-type: upper-roman;
+}
+nav{
+    background-color: #333;
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    padding-bottom: 5px;
+}
+nav #test{
+  font-size: 30px;
+  justify-content: left;
+  display: flex;
+  width: 100%;
+  margin-top: 26px;
+  margin-left: 7px;
+}
+nav ul {
+    padding-left: 0;
+   list-style: none;
+   padding-top: 15px;
+}
+nav ul li{
+    background-color:darkgray;
+    border-radius: 8px;
+    margin:5px 15px 180px 15px;
+    padding-bottom: 6px ;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding:0 7px 0px 7px;
+}
+nav ul li :hover {
+    background-color:darkred;
+    border-radius: 8px;
+    padding-bottom: 7px;
+    padding-top: 1px;
+  }
+ #mysite{
+    margin-left:76%;
+    background-color: darkgray;
+    border-radius: 100%;
+    height: 130px;
+    padding:5px;
+    border: darkred;
+    position: relative;
+    margin-top: -272px;
+  }
+  #mysite pre{
+    margin-left: 26px;
+    margin-bottom: 10px;
+    color:darkred;
+    justify-content:left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+[class^="material-icons"]{
+    font-size: inherit;
+    color: red;
+    position: relative;
+    top : 5px;
+    left: 5px;
+    padding-right: 10px;
+}
+#mainpage{
+    width: 100%;
+    padding-bottom: -5px;
+}
+#mr{
+color: maroon;
+margin-top: 5px;
+}
+#div1{
+  margin-left: 95px;
+  margin-bottom:2px;
+  color: darkred;
+}
+#div2{
+  color: darkred;
+}
+#div3{
+  color: darkred;
+}
+
+@media screen and (min-width: 600px) {
+    div.responsive {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.responsive{
+      font-size: 15px;
+    }
+    ul#fa-ul{
+      font-size:13px;
+    }
+    span#mr{
+      font-size: 20px;
+    }
+    span#order{
+      font-size: 20px;
+    }
+    ol#orderlist{
+      font-size: 13px;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    a.first {
+      font-size: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    a.first{
+      font-size: 20px; 
+    }
+  }
+  @media screen and (min-width: 600px) {
+    pre.second {
+      font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    pre.second{
+      font-size: 12px;
+      position: relative;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    div#mysite {
+      width: 17%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    div#mysite{
+      width: 17%;
+      height: 50px;
+      margin-left:40%;
+      margin-top: -292px;
+    }
+    div#test{
+      margin-top:67px;
+    }
+    div#div1{
+      font-size:10px;
+      position: relative;
+      margin:-11px;
+      padding:10px;
+    }
+    div#div2{
+      position: relative;
+      font-size:10px;
+    }
+    div#div3{
+      position: relative;
+      font-size:10px;
+      
+    }
+    div.fan{
+      margin-top: -13px;
+      margin-left:24px;
+    }
+    div.para{
+      margin-left: -14px;
+      margin-top:-7px
+    }
+
+  }
+
